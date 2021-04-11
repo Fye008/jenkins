@@ -34,4 +34,13 @@ public class UserController {
         return "hello world。。。";
     }
 
+
+    @GetMapping("/hello4")
+    public String test4() {
+
+        System.out.println("进来了.............................................");
+
+        return "hello world。。。";
+    }
+
 }
