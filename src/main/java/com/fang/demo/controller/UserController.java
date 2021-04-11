@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/user")
 public class UserController {
 
-    @PostMapping("/hello")
+    @PostMapping("/hello3")
     public String test1() {
 
         System.out.println("进来了.............................................");
