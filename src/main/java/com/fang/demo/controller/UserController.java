@@ -1,6 +1,7 @@
 package com.fang.demo.controller;
 
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -18,6 +19,15 @@ public class UserController {
 
     @PostMapping("/hello")
     public String test1() {
+
+        System.out.println("进来了.............................................");
+
+        return "hello world。。。";
+    }
+
+
+    @GetMapping("/hello2")
+    public String test2() {
 
         System.out.println("进来了.............................................");
 
